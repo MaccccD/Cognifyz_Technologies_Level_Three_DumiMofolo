@@ -59,8 +59,8 @@ a:hover {
     display: none;
     position: fixed;
     z-index: 1000;
-    left: 1;
-    top: 1;
+    left: 150;
+    top: 150;
     margin-top: 70px;
     width: 400%;
     height: 300%;
@@ -70,14 +70,17 @@ a:hover {
     display: block;
     margin: auto;
     max-width: 100%;
-    max-height: 100%;
+    max-height: 170%;
+    border-radius: 25px;
+    border: #141111;
+
 }
 
 .close {
     position: absolute;
-    top: 15px;
-    right: 25px;
-    color: antiquewhite;
-    font-size: 30px;
+    top: 10px;
+    right: 875px;
+    color: red;
+    font-size: 80px;
     cursor: pointer;
 }

@@ -5,6 +5,13 @@
 p {
     color: #faebd7;
 }
+.image {
+    border-radius: 25px;
+    display: block;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
 .navBar-Container{
     background-color: rgb(2, 21, 2);
     display: flex;
