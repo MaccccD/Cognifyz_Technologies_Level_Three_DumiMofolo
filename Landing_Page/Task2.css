@@ -1,7 +1,13 @@
 *{
-    background-color: #041638;
+    background-color: #5123AC;
+    background-color: #171F76;
     font-family: Arial, Helvetica, sans-serif;
 }
 p {
     color: #faebd7;
+}
+#Logo {
+    width: 220px;
+    height: 90px;
+    left: 5%;
 }
