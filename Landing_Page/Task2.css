@@ -193,14 +193,14 @@ a:hover {
     z-index: 800;
     display: flex;
     gap: 5px;
-    top: 89%;
+    top: 87%;
     left: 0%;
     position: fixed;
 }
 .features4 {
     display: flex;
     gap: 5px;
-    top: 90.5%;
+    top: 87.5%;
     left: 12%;
     position: fixed;
 }
