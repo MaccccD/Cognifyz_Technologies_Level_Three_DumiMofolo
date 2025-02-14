@@ -9,7 +9,8 @@ p {
 #Logo {
     width: 220px;
     height: 90px;
-    left: 5%;
+    left: 2%;
+    position: fixed;
 }
 .navBar-Container {
     background-color: #11175a;
@@ -24,7 +25,7 @@ p {
     margin-bottom: 170px;
     top: 6%;
     left: 50%;
-    position: absolute;
+    position: fixed;
     transform: translate(-50%, -50%);
 }
 .navBar-Container a {
@@ -56,7 +57,7 @@ a:hover {
     margin-bottom: 170px;
     top: 1%;
     right: 1%;
-    position: absolute;
+    position: fixed;
 }
 #SignUp {
     width: 110px;
@@ -96,7 +97,7 @@ a:hover {
     top: 16%;
     right: 1%;
     bottom: 8%;
-    position: absolute;
+    position: fixed;
 }
 .headlinerText-Container {
     background-color: #1e235a;
@@ -104,12 +105,12 @@ a:hover {
     justify-content: left;
     margin: 0;
     border-radius: 60px;
-    width: 400px;
+    width: 440px;
     min-height: 90px;
     margin-bottom: 170px;
-    top: 20%;
+    top: 18%;
     left: 1%;
-    position: absolute;
+    position: fixed;
 }
 .headline {
     background-color: #1e235a;
@@ -135,14 +136,12 @@ a:hover {
     color: #4AC3FF;
     font-size: 35px;
 }
-
 .calltoaction {
     display: flex;
     gap: 60px;
-    top: 75%;
-    left: 1%;
-    position: absolute;
-    opacity: 75%;
+    top: 81%;
+    left: 48%;
+    position: fixed;
 }
 #ApplyBtn {
     width: 130px;
@@ -173,4 +172,60 @@ a:hover {
 }
 #LearnBtn:hover{
     background-color:#035603;
+}
+.features1 {
+    display: flex;
+    gap: 10px;
+    top: 73%;
+    left: 0%;
+    position: fixed;
+}
+.features2 {
+    display: flex;
+    gap: 5px;
+    top: 73%;
+    left: 12%;
+    position: fixed;
+}
+.features3 {
+    display: flex;
+    gap: 5px;
+    top: 89%;
+    left: 0%;
+    position: fixed;
+}
+.features4 {
+    display: flex;
+    gap: 5px;
+    top: 90.5%;
+    left: 12%;
+    position: fixed;
+}
+footer {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;  
+    text-align: center;
+    margin-top: auto; 
+    padding: 20px 0;
+}
+#Icons {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-bottom: 10px;  
+}
+span {
+    color: #faebd7;
+    font-size: 15px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 115vh;
+    margin: 0;
+}
+
+main {
+    flex: 1; 
 }
