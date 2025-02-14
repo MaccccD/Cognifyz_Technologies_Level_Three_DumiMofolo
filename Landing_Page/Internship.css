@@ -96,7 +96,7 @@ a:hover {
     margin: 0;
 }
 #Intern {
-    position: absolute;
+    position: fixed;
     background-color: #1e235a;
     opacity: 80%;
     justify-content: left;
@@ -114,7 +114,7 @@ a:hover {
     cursor: pointer;
 }
 #Intern1 {
-    position: absolute;
+    position: fixed;
     background-color: #1e235a;
     opacity: 80%;
     justify-content: left;
@@ -135,7 +135,7 @@ strong {
     background-color: #1e235a;
 }
 #Intern2 {
-    position: absolute;
+    position: fixed;
     background-color: #1e235a;
     opacity: 80%;
     justify-content: left;
@@ -186,6 +186,7 @@ strong {
 }
 
 footer {
+    z-index: 800;
     display: flex;
     flex-direction: column;  
     align-items: center;  
